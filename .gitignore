@@ -1,0 +1,25 @@
+node_modules/
+.env
+.env.local
+venv/
+__pycache__/
+.next/
+dist/
+
+# Python
+
+agent/venv/
+
+agent/.env
+
+__pycache__/
+
+*.pyc
+
+# NextJS
+
+dashboard/.next/
+
+dashboard/node_modules/
+
+dashboard/.env.local
