@@ -1,12 +1,12 @@
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
 
 load_dotenv()
 
-SUPABASE_URL = os.getenv("SUPABASE_URL")
+SERVER_NAME = os.getenv("SERVER_NAME", "unknown")
 
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+ENVIRONMENT = os.getenv("ENVIRONMENT","devlopment")
 
-SERVER_NAME = os.getenv("SERVER_NAME")
-
-ENVIRONMENT = os.getenv("ENVIRONMENT")
+COLLECTION_INTERVAL = int(
+    os.getenv("COLLECTION_INTERVAL", "10")
+)

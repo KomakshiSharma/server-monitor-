@@ -1,12 +1,38 @@
-from src.database.supabase_client import supabase
-from src.services.server_service import register_server
+import time
+
+from src.config.settings import (
+    COLLECTION_INTERVAL,
+    SERVER_NAME,
+)
+
+from src.services.collector_service import CollectorService
+from src.utils.logger import logger
+
 
 def main():
 
-	print("Starting Monitoring Agent...\n")
-	server_id = register_server()
-	print(f"\nServer ID: {server_id}")
-	print("\nRegistration completed successfully.")
-	
-if " __name__==" "__main__":
-	main()
+    logger.info("=" * 50)
+    logger.info("Server Monitoring Agent")
+    logger.info("=" * 50)
+
+    logger.info(
+        f"Server : {SERVER_NAME}"
+    )
+
+    logger.info(
+        f"Interval : {COLLECTION_INTERVAL} seconds"
+    )
+
+    while True:
+
+        metric = CollectorService.collect()
+
+        logger.info(
+            f"CPU Usage : {metric.cpu_usage}%"
+        )
+
+        time.sleep(COLLECTION_INTERVAL)
+
+
+if __name__ == "__main__":
+    main()
