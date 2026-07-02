@@ -10,10 +10,13 @@ export default function Home() {
       <div className="flex">
         <Sidebar />
 
-        <section className="flex-1 p-8">
-          <div className="mb-8">
-            <h1 className="text-4xl font-bold">Server Monitoring Dashboard</h1>
-            <p className="text-slate-400 mt-2">
+        <section className="flex-1 p-6">
+          <div className="mb-6">
+            <h1 className="text-5xl font-bold">
+              Server Monitoring Dashboard
+            </h1>
+
+            <p className="mt-2 text-slate-400">
               Real-time infrastructure monitoring
             </p>
           </div>

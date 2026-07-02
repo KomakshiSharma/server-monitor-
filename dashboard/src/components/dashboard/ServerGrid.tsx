@@ -1,31 +1,96 @@
-import MetricCard from "./MetricCard"
+"use client";
 
-export default function ServerGrid(){
+import { useEffect, useState } from "react";
+import { supabase } from "@/lib/supabase";
+import {
+  getServersWithLatestMetrics,
+  getLatestMetricForServer,
+} from "@/services/serverService";
+import { ServerMetric, ServerWithLatestMetric } from "@/types/server";
+import ServerCard from "./ServerCard";
 
-    return(
+export default function ServerGrid() {
+  const [servers, setServers] = useState<ServerWithLatestMetric[]>([]);
+  const [loading, setLoading] = useState(true);
 
-        <div className="grid grid-cols-3 gap-6">
+  /**
+   * Initial load:
+   * fetch all servers + latest metric for each one
+   */
+  async function loadServers() {
+    setLoading(true);
 
-            <MetricCard
-                title="CPU Usage"
-                value={40}
-                color="text-green-400"
-            />
+    const data = await getServersWithLatestMetrics();
 
-            <MetricCard
-                title="RAM Usage"
-                value={68}
-                color="text-yellow-400"
-            />
+    setServers(data);
+    setLoading(false);
+  }
 
-            <MetricCard
-                title="Disk Usage"
-                value={82}
-                color="text-red-400"
-            />
+  useEffect(() => {
+    loadServers();
+  }, []);
 
-        </div>
+  /**
+   * Realtime subscription:
+   * whenever a new metric row is inserted into server_metrics,
+   * update only the affected server card
+   */
+  useEffect(() => {
+    const channel = supabase
+      .channel("server-metrics-realtime")
+      .on(
+        "postgres_changes",
+        {
+          event: "INSERT",
+          schema: "public",
+          table: "server_metrics",
+        },
+        async (payload) => {
+          const newMetric = payload.new as ServerMetric;
 
-    )
+          setServers((prev) =>
+            prev.map((item) =>
+              item.server.id === newMetric.server_id
+                ? {
+                    ...item,
+                    latestMetric: newMetric,
+                  }
+                : item
+            )
+          );
+        }
+      )
+      .subscribe();
 
+    return () => {
+      supabase.removeChannel(channel);
+    };
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="p-8 text-slate-400">
+        Loading server metrics...
+      </div>
+    );
+  }
+
+  if (servers.length === 0) {
+    return (
+      <div className="p-8 text-slate-400">
+        No servers found.
+      </div>
+    );
+  }
+
+  return (
+    <div className="grid gap-6 p-8 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+      {servers.map((item) => (
+        <ServerCard
+          key={item.server.id}
+          item={item}
+        />
+      ))}
+    </div>
+  );
 }
