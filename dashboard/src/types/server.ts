@@ -18,3 +18,10 @@ export interface ServerWithLatestMetric {
   server: Server;
   latestMetric: ServerMetric | null;
 }
+
+export interface DashboardSummary{
+  totalServers: number;
+  avgCpu: number;
+  avgMemory: number;
+  avgDisk: number;
+}

@@ -1,22 +1,22 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import {
+  buildDashboardSummary,
   getServersWithLatestMetrics,
-  getLatestMetricForServer,
 } from "@/services/serverService";
-import { ServerMetric, ServerWithLatestMetric } from "@/types/server";
+import {
+  ServerMetric,
+  ServerWithLatestMetric,
+} from "@/types/server";
+import SummaryCards from "./SummaryCards";
 import ServerCard from "./ServerCard";
 
 export default function ServerGrid() {
   const [servers, setServers] = useState<ServerWithLatestMetric[]>([]);
   const [loading, setLoading] = useState(true);
 
-  /**
-   * Initial load:
-   * fetch all servers + latest metric for each one
-   */
   async function loadServers() {
     setLoading(true);
 
@@ -30,11 +30,6 @@ export default function ServerGrid() {
     loadServers();
   }, []);
 
-  /**
-   * Realtime subscription:
-   * whenever a new metric row is inserted into server_metrics,
-   * update only the affected server card
-   */
   useEffect(() => {
     const channel = supabase
       .channel("server-metrics-realtime")
@@ -67,6 +62,10 @@ export default function ServerGrid() {
     };
   }, []);
 
+  const summary = useMemo(() => {
+    return buildDashboardSummary(servers);
+  }, [servers]);
+
   if (loading) {
     return (
       <div className="p-8 text-slate-400">
@@ -75,22 +74,35 @@ export default function ServerGrid() {
     );
   }
 
-  if (servers.length === 0) {
-    return (
-      <div className="p-8 text-slate-400">
-        No servers found.
-      </div>
-    );
-  }
-
   return (
-    <div className="grid gap-6 p-8 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
-      {servers.map((item) => (
-        <ServerCard
-          key={item.server.id}
-          item={item}
-        />
-      ))}
+    <div className="space-y-8">
+      <SummaryCards summary={summary} />
+
+      <div>
+        <div className="mb-4">
+          <h2 className="text-2xl font-semibold text-white">
+            Servers
+          </h2>
+          <p className="text-sm text-slate-400">
+            Latest health snapshot for each registered server
+          </p>
+        </div>
+
+        {servers.length === 0 ? (
+          <div className="rounded-xl border border-slate-800 bg-slate-900 p-6 text-slate-400">
+            No servers found.
+          </div>
+        ) : (
+          <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+            {servers.map((item) => (
+              <ServerCard
+                key={item.server.id}
+                item={item}
+              />
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

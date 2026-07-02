@@ -11,7 +11,7 @@ export default function Home() {
         <Sidebar />
 
         <section className="flex-1 p-6">
-          <div className="mb-6">
+          <div className="mb-8">
             <h1 className="text-5xl font-bold">
               Server Monitoring Dashboard
             </h1>

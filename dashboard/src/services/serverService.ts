@@ -1,9 +1,11 @@
-import { supabase } from "@/lib/supabase";
+import {supabase} from "@/lib/supabase";
 import {
+  DashboardSummary,
   Server,
   ServerMetric,
   ServerWithLatestMetric,
-} from "@/types/server";
+ }
+  from "@/types/server";
 
 /**
  * Fetch all servers from Supabase
@@ -64,4 +66,40 @@ export async function getServersWithLatestMetrics(): Promise<
   );
 
   return results;
+}
+
+/**
+ * Build summary metrics from latest server metrics
+ */
+export function buildDashboardSummary(
+  servers: ServerWithLatestMetric[]
+): DashboardSummary {
+  const totalServers = servers.length;
+
+  const metrics = servers
+    .map((item) => item.latestMetric)
+    .filter((metric): metric is ServerMetric => metric !== null);
+
+  if (metrics.length === 0) {
+    return {
+      totalServers,
+      avgCpu: 0,
+      avgMemory: 0,
+      avgDisk: 0,
+    };
+  }
+
+  const totalCpu = metrics.reduce((sum, metric) => sum + metric.cpu_usage, 0);
+  const totalMemory = metrics.reduce(
+    (sum, metric) => sum + metric.memory_usage,
+    0
+  );
+  const totalDisk = metrics.reduce((sum, metric) => sum + metric.disk_usage, 0);
+
+  return {
+    totalServers,
+    avgCpu: totalCpu / metrics.length,
+    avgMemory: totalMemory / metrics.length,
+    avgDisk: totalDisk / metrics.length,
+  };
 }
