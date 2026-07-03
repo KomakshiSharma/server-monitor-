@@ -4,6 +4,7 @@ import {
   Server,
   ServerMetric,
   ServerWithLatestMetric,
+  TrendPoint,
  }
   from "@/types/server";
 
@@ -102,4 +103,35 @@ export function buildDashboardSummary(
     avgMemory: totalMemory / metrics.length,
     avgDisk: totalDisk / metrics.length,
   };
+}
+/**
+ *Fetch metric history for one server
+ */
+export async function getServerMetricHistory(
+  serverId: string,
+  limit = 20
+): Promise<TrendPoint[]>{
+  const{data, error} = await supabase
+     .from("server_metrics")
+     .select("*")
+     .eq("server_id",serverId)
+     .order("created_at",{asending: false})
+     .limit(limit);
+  if(error){
+     console.error('Error fetching history for ${serverId}:',error);
+     return [];
+ }
+
+  const rows = (data ?? []).reverse();
+
+  return rows.map((row) => ({
+    time: new Date(row.created_at).toLocaleTimeString([], {
+      hour: "2-digit",
+      minute: "2-digit",
+    }),
+    fullTime: new Date(row.created_at).toLocaleString(),
+    cpu: row.cpu_usage,
+    memory: row.memory_usage,
+    disk: row.disk_usage,
+  }));
 }

@@ -12,6 +12,7 @@ import {
 } from "@/types/server";
 import SummaryCards from "./SummaryCards";
 import ServerCard from "./ServerCard";
+import ServerTrends from "./ServerTrends";
 
 export default function ServerGrid() {
   const [servers, setServers] = useState<ServerWithLatestMetric[]>([]);
@@ -75,7 +76,7 @@ export default function ServerGrid() {
   }
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-10">
       <SummaryCards summary={summary} />
 
       <div>
@@ -103,6 +104,10 @@ export default function ServerGrid() {
           </div>
         )}
       </div>
+
+      <ServerTrends
+        servers={servers.map((item) => item.server)}
+      />
     </div>
   );
 }

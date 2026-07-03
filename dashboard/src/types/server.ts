@@ -25,3 +25,11 @@ export interface DashboardSummary{
   avgMemory: number;
   avgDisk: number;
 }
+
+export interface TrendPoint{
+  time: string;
+  fullTime: sting;
+  cpu: number;
+  memory: number;
+  disk: number;
+}
