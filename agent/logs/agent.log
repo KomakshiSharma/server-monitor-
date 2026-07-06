@@ -542,3 +542,338 @@
 2026-07-02 14:40:25,030 | INFO | Heartbeat | Agent Alive | 2026-07-02 14:40:25.030195
 2026-07-02 14:40:39,797 | INFO | 
 2026-07-02 14:40:39,798 | INFO | Monitoring Agent Stopped.
+2026-07-06 12:00:25,288 | INFO | Connected to Supabase.
+2026-07-06 12:00:25,289 | INFO | ============================================================
+2026-07-06 12:00:25,289 | INFO | Server Monitoring Agent Started
+2026-07-06 12:00:25,289 | INFO | ============================================================
+2026-07-06 12:00:25,289 | INFO | Server Name        : zoey
+2026-07-06 12:00:25,289 | INFO | Environment        : development
+2026-07-06 12:00:25,289 | INFO | Collection Interval: 10 seconds
+2026-07-06 12:00:25,289 | INFO | ============================================================
+2026-07-06 12:00:25,289 | INFO | Validating configuration...
+2026-07-06 12:00:25,289 | INFO | Configuration validated successfully.
+2026-07-06 12:00:28,137 | INFO | Server UUID  : e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:00:30,175 | INFO | Metrics uploaded successfully.
+2026-07-06 12:00:30,175 | INFO | Upload Status : SUCCESS
+2026-07-06 12:00:30,175 | INFO | ============================================================
+2026-07-06 12:00:30,175 | INFO | Server       : zoey
+2026-07-06 12:00:30,175 | INFO | Environment  : development
+2026-07-06 12:00:30,175 | INFO | ------------------------------------------------------------
+2026-07-06 12:00:30,176 | INFO | CPU Usage    : 7.60%
+2026-07-06 12:00:30,176 | INFO | RAM Usage    : 54.00%
+2026-07-06 12:00:30,176 | INFO | Disk Usage   : 17.30%
+2026-07-06 12:00:30,176 | INFO | ============================================================
+2026-07-06 12:00:30,176 | INFO | Heartbeat | Agent Alive | 2026-07-06 12:00:30.176225
+2026-07-06 12:00:51,577 | INFO | Metrics uploaded successfully.
+2026-07-06 12:00:51,577 | INFO | Upload Status : SUCCESS
+2026-07-06 12:00:51,577 | INFO | ============================================================
+2026-07-06 12:00:51,577 | INFO | Server       : zoey
+2026-07-06 12:00:51,578 | INFO | Environment  : development
+2026-07-06 12:00:51,578 | INFO | ------------------------------------------------------------
+2026-07-06 12:00:51,578 | INFO | CPU Usage    : 9.10%
+2026-07-06 12:00:51,578 | INFO | RAM Usage    : 54.10%
+2026-07-06 12:00:51,578 | INFO | Disk Usage   : 17.30%
+2026-07-06 12:00:51,578 | INFO | ============================================================
+2026-07-06 12:00:51,578 | INFO | Heartbeat | Agent Alive | 2026-07-06 12:00:51.578839
+2026-07-06 12:01:12,978 | INFO | Metrics uploaded successfully.
+2026-07-06 12:01:12,979 | INFO | Upload Status : SUCCESS
+2026-07-06 12:01:12,979 | INFO | ============================================================
+2026-07-06 12:01:12,979 | INFO | Server       : zoey
+2026-07-06 12:01:12,979 | INFO | Environment  : development
+2026-07-06 12:01:12,979 | INFO | ------------------------------------------------------------
+2026-07-06 12:01:12,980 | INFO | CPU Usage    : 7.90%
+2026-07-06 12:01:12,980 | INFO | RAM Usage    : 54.30%
+2026-07-06 12:01:12,980 | INFO | Disk Usage   : 17.30%
+2026-07-06 12:01:12,980 | INFO | ============================================================
+2026-07-06 12:01:12,980 | INFO | Heartbeat | Agent Alive | 2026-07-06 12:01:12.980552
+2026-07-06 12:01:34,482 | INFO | Metrics uploaded successfully.
+2026-07-06 12:01:34,482 | INFO | Upload Status : SUCCESS
+2026-07-06 12:01:34,482 | INFO | ============================================================
+2026-07-06 12:01:34,482 | INFO | Server       : zoey
+2026-07-06 12:01:34,483 | INFO | Environment  : development
+2026-07-06 12:01:34,483 | INFO | ------------------------------------------------------------
+2026-07-06 12:01:34,483 | INFO | CPU Usage    : 9.20%
+2026-07-06 12:01:34,483 | INFO | RAM Usage    : 54.70%
+2026-07-06 12:01:34,483 | INFO | Disk Usage   : 17.30%
+2026-07-06 12:01:34,483 | INFO | ============================================================
+2026-07-06 12:01:34,483 | INFO | Heartbeat | Agent Alive | 2026-07-06 12:01:34.483527
+2026-07-06 12:01:55,878 | INFO | Metrics uploaded successfully.
+2026-07-06 12:01:55,878 | INFO | Upload Status : SUCCESS
+2026-07-06 12:01:55,878 | INFO | ============================================================
+2026-07-06 12:01:55,878 | INFO | Server       : zoey
+2026-07-06 12:01:55,878 | INFO | Environment  : development
+2026-07-06 12:01:55,878 | INFO | ------------------------------------------------------------
+2026-07-06 12:01:55,878 | INFO | CPU Usage    : 7.20%
+2026-07-06 12:01:55,878 | INFO | RAM Usage    : 55.30%
+2026-07-06 12:01:55,878 | INFO | Disk Usage   : 17.30%
+2026-07-06 12:01:55,878 | INFO | ============================================================
+2026-07-06 12:01:55,878 | INFO | Heartbeat | Agent Alive | 2026-07-06 12:01:55.878888
+2026-07-06 12:02:17,899 | INFO | Metrics uploaded successfully.
+2026-07-06 12:02:17,899 | INFO | Upload Status : SUCCESS
+2026-07-06 12:02:17,899 | INFO | ============================================================
+2026-07-06 12:02:17,899 | INFO | Server       : zoey
+2026-07-06 12:02:17,899 | INFO | Environment  : development
+2026-07-06 12:02:17,899 | INFO | ------------------------------------------------------------
+2026-07-06 12:02:17,899 | INFO | CPU Usage    : 10.20%
+2026-07-06 12:02:17,900 | INFO | RAM Usage    : 56.30%
+2026-07-06 12:02:17,900 | INFO | Disk Usage   : 17.30%
+2026-07-06 12:02:17,900 | INFO | ============================================================
+2026-07-06 12:02:17,900 | INFO | Heartbeat | Agent Alive | 2026-07-06 12:02:17.900626
+2026-07-06 12:02:39,301 | INFO | Metrics uploaded successfully.
+2026-07-06 12:02:39,301 | INFO | Upload Status : SUCCESS
+2026-07-06 12:02:39,301 | INFO | ============================================================
+2026-07-06 12:02:39,301 | INFO | Server       : zoey
+2026-07-06 12:02:39,301 | INFO | Environment  : development
+2026-07-06 12:02:39,301 | INFO | ------------------------------------------------------------
+2026-07-06 12:02:39,301 | INFO | CPU Usage    : 9.30%
+2026-07-06 12:02:39,301 | INFO | RAM Usage    : 55.80%
+2026-07-06 12:02:39,301 | INFO | Disk Usage   : 17.30%
+2026-07-06 12:02:39,301 | INFO | ============================================================
+2026-07-06 12:02:39,301 | INFO | Heartbeat | Agent Alive | 2026-07-06 12:02:39.301896
+2026-07-06 12:03:00,703 | INFO | Metrics uploaded successfully.
+2026-07-06 12:03:00,703 | INFO | Upload Status : SUCCESS
+2026-07-06 12:03:00,703 | INFO | ============================================================
+2026-07-06 12:03:00,704 | INFO | Server       : zoey
+2026-07-06 12:03:00,704 | INFO | Environment  : development
+2026-07-06 12:03:00,704 | INFO | ------------------------------------------------------------
+2026-07-06 12:03:00,704 | INFO | CPU Usage    : 4.90%
+2026-07-06 12:03:00,704 | INFO | RAM Usage    : 55.20%
+2026-07-06 12:03:00,704 | INFO | Disk Usage   : 17.30%
+2026-07-06 12:03:00,704 | INFO | ============================================================
+2026-07-06 12:03:00,704 | INFO | Heartbeat | Agent Alive | 2026-07-06 12:03:00.704773
+2026-07-06 12:03:22,078 | INFO | Metrics uploaded successfully.
+2026-07-06 12:03:22,079 | INFO | Upload Status : SUCCESS
+2026-07-06 12:03:22,079 | INFO | ============================================================
+2026-07-06 12:03:22,079 | INFO | Server       : zoey
+2026-07-06 12:03:22,079 | INFO | Environment  : development
+2026-07-06 12:03:22,079 | INFO | ------------------------------------------------------------
+2026-07-06 12:03:22,079 | INFO | CPU Usage    : 15.60%
+2026-07-06 12:03:22,079 | INFO | RAM Usage    : 55.40%
+2026-07-06 12:03:22,079 | INFO | Disk Usage   : 17.30%
+2026-07-06 12:03:22,079 | INFO | ============================================================
+2026-07-06 12:03:22,079 | INFO | Heartbeat | Agent Alive | 2026-07-06 12:03:22.079640
+2026-07-06 12:03:43,506 | INFO | Metrics uploaded successfully.
+2026-07-06 12:03:43,506 | INFO | Upload Status : SUCCESS
+2026-07-06 12:03:43,506 | INFO | ============================================================
+2026-07-06 12:03:43,506 | INFO | Server       : zoey
+2026-07-06 12:03:43,507 | INFO | Environment  : development
+2026-07-06 12:03:43,507 | INFO | ------------------------------------------------------------
+2026-07-06 12:03:43,507 | INFO | CPU Usage    : 5.80%
+2026-07-06 12:03:43,507 | INFO | RAM Usage    : 55.60%
+2026-07-06 12:03:43,507 | INFO | Disk Usage   : 17.30%
+2026-07-06 12:03:43,507 | INFO | ============================================================
+2026-07-06 12:03:43,507 | INFO | Heartbeat | Agent Alive | 2026-07-06 12:03:43.507373
+2026-07-06 12:04:00,980 | INFO | 
+2026-07-06 12:04:00,980 | INFO | Monitoring Agent Stopped.
+2026-07-06 12:42:40,183 | INFO | Connected to Supabase.
+2026-07-06 12:42:40,184 | INFO | ==============================================
+2026-07-06 12:42:40,184 | INFO | Starting monitoring agent
+2026-07-06 12:42:40,184 | INFO | SERVER_NAME         = zoey
+2026-07-06 12:42:40,184 | INFO | ENVIRONMENT         = development
+2026-07-06 12:42:40,184 | INFO | COLLECTION_INTERVAL = 10
+2026-07-06 12:42:40,184 | INFO | ==============================================
+2026-07-06 12:42:42,968 | INFO | [zoey] ACTIVE SERVER ID = e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:42:43,969 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:42:43,969 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 9.0, 'memory_usage': 57.8, 'disk_usage': 17.3}
+2026-07-06 12:42:45,015 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:42:45,015 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:42:56,017 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:42:56,017 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 4.0, 'memory_usage': 58.3, 'disk_usage': 17.3}
+2026-07-06 12:42:56,483 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:42:56,483 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:43:07,485 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:43:07,485 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 4.0, 'memory_usage': 58.2, 'disk_usage': 17.3}
+2026-07-06 12:43:07,952 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:43:07,952 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:43:18,954 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:43:18,954 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 3.8, 'memory_usage': 58.2, 'disk_usage': 17.3}
+2026-07-06 12:43:19,421 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:43:19,421 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:43:30,422 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:43:30,423 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 5.8, 'memory_usage': 58.2, 'disk_usage': 17.3}
+2026-07-06 12:43:31,086 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:43:31,086 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:43:42,088 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:43:42,088 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 3.5, 'memory_usage': 58.2, 'disk_usage': 17.3}
+2026-07-06 12:43:42,563 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:43:42,563 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:43:53,565 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:43:53,566 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 5.8, 'memory_usage': 58.4, 'disk_usage': 17.3}
+2026-07-06 12:43:54,032 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:43:54,032 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:44:05,034 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:44:05,034 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 14.2, 'memory_usage': 58.5, 'disk_usage': 17.3}
+2026-07-06 12:44:05,502 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:44:05,502 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:44:16,503 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:44:16,504 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 8.8, 'memory_usage': 58.5, 'disk_usage': 17.3}
+2026-07-06 12:44:16,970 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:44:16,971 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:44:27,972 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:44:27,972 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 13.9, 'memory_usage': 59.0, 'disk_usage': 17.3}
+2026-07-06 12:44:29,053 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:44:29,053 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:44:40,055 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:44:40,055 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 2.1, 'memory_usage': 58.6, 'disk_usage': 17.3}
+2026-07-06 12:44:40,523 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:44:40,523 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:44:51,524 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:44:51,525 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 1.9, 'memory_usage': 58.4, 'disk_usage': 17.3}
+2026-07-06 12:44:51,992 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:44:51,993 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:45:02,994 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:45:02,994 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 4.5, 'memory_usage': 58.4, 'disk_usage': 17.3}
+2026-07-06 12:45:03,480 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:45:03,480 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:45:14,482 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:45:14,482 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 7.1, 'memory_usage': 58.6, 'disk_usage': 17.3}
+2026-07-06 12:45:14,930 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:45:14,931 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:45:25,932 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:45:25,932 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 3.7, 'memory_usage': 57.9, 'disk_usage': 17.3}
+2026-07-06 12:45:26,398 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:45:26,399 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:45:37,400 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:45:37,401 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 6.7, 'memory_usage': 57.8, 'disk_usage': 17.3}
+2026-07-06 12:45:39,340 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:45:39,340 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:45:50,342 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:45:50,342 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 10.0, 'memory_usage': 58.1, 'disk_usage': 17.3}
+2026-07-06 12:45:50,771 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:45:50,771 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:46:01,773 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:46:01,773 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 9.3, 'memory_usage': 58.9, 'disk_usage': 17.3}
+2026-07-06 12:46:02,342 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:46:02,343 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:46:13,345 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:46:13,345 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 3.3, 'memory_usage': 58.5, 'disk_usage': 17.3}
+2026-07-06 12:46:14,117 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:46:14,118 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:46:25,119 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:46:25,120 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 4.7, 'memory_usage': 58.2, 'disk_usage': 17.3}
+2026-07-06 12:46:25,588 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:46:25,588 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:46:36,589 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:46:36,589 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 2.7, 'memory_usage': 57.5, 'disk_usage': 17.3}
+2026-07-06 12:46:37,027 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:46:37,027 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:46:48,028 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:46:48,029 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 6.4, 'memory_usage': 57.4, 'disk_usage': 17.3}
+2026-07-06 12:46:49,550 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:46:49,551 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:47:00,552 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:47:00,552 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 6.1, 'memory_usage': 57.4, 'disk_usage': 17.3}
+2026-07-06 12:47:00,964 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:47:00,964 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:47:11,966 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:47:11,966 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 10.0, 'memory_usage': 58.1, 'disk_usage': 17.3}
+2026-07-06 12:47:12,486 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:47:12,486 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:47:23,488 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:47:23,488 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 9.3, 'memory_usage': 57.6, 'disk_usage': 17.3}
+2026-07-06 12:47:25,491 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:47:25,492 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:47:36,493 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:47:36,493 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 7.8, 'memory_usage': 57.6, 'disk_usage': 17.3}
+2026-07-06 12:47:36,888 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:47:36,888 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:47:47,890 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:47:47,890 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 4.4, 'memory_usage': 57.8, 'disk_usage': 17.3}
+2026-07-06 12:47:48,843 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:47:48,843 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:47:59,844 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:47:59,845 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 4.5, 'memory_usage': 57.7, 'disk_usage': 17.3}
+2026-07-06 12:48:01,321 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:48:01,322 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:48:12,323 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:48:12,323 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 5.0, 'memory_usage': 57.6, 'disk_usage': 17.3}
+2026-07-06 12:48:12,804 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:48:12,804 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:48:23,805 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:48:23,805 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 9.4, 'memory_usage': 58.0, 'disk_usage': 17.3}
+2026-07-06 12:48:24,243 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:48:24,243 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:48:35,244 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:48:35,244 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 11.5, 'memory_usage': 58.2, 'disk_usage': 17.3}
+2026-07-06 12:48:36,661 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:48:36,661 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:48:47,663 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:48:47,663 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 6.3, 'memory_usage': 58.8, 'disk_usage': 17.3}
+2026-07-06 12:48:48,248 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:48:48,248 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:48:59,249 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:48:59,250 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 2.8, 'memory_usage': 58.4, 'disk_usage': 17.3}
+2026-07-06 12:48:59,667 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:48:59,667 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:49:10,669 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:49:10,669 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 8.1, 'memory_usage': 58.8, 'disk_usage': 17.3}
+2026-07-06 12:49:12,094 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:49:12,094 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:49:23,095 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:49:23,096 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 6.1, 'memory_usage': 59.2, 'disk_usage': 17.3}
+2026-07-06 12:49:23,561 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:49:23,562 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:49:34,563 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:49:34,563 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 6.4, 'memory_usage': 59.2, 'disk_usage': 17.3}
+2026-07-06 12:49:35,030 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:49:35,030 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:49:46,032 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:49:46,032 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 4.0, 'memory_usage': 58.6, 'disk_usage': 17.3}
+2026-07-06 12:49:47,526 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:49:47,526 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:49:58,527 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:49:58,528 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 5.0, 'memory_usage': 58.4, 'disk_usage': 17.3}
+2026-07-06 12:49:58,928 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:49:58,928 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:50:09,929 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:50:09,930 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 25.4, 'memory_usage': 58.2, 'disk_usage': 17.3}
+2026-07-06 12:50:10,359 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:50:10,359 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:50:21,361 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:50:21,361 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 6.8, 'memory_usage': 57.9, 'disk_usage': 17.3}
+2026-07-06 12:50:22,854 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:50:22,854 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:50:33,856 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:50:33,856 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 3.1, 'memory_usage': 56.6, 'disk_usage': 17.3}
+2026-07-06 12:50:34,323 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:50:34,323 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:50:45,325 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:50:45,326 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 4.9, 'memory_usage': 56.7, 'disk_usage': 17.3}
+2026-07-06 12:50:45,793 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:50:45,793 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:50:56,795 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:50:56,795 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 6.6, 'memory_usage': 57.5, 'disk_usage': 17.3}
+2026-07-06 12:50:58,183 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:50:58,183 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:51:09,185 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:51:09,185 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 24.3, 'memory_usage': 58.2, 'disk_usage': 17.3}
+2026-07-06 12:51:09,580 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:51:09,580 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:51:20,582 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:51:20,582 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 3.7, 'memory_usage': 58.4, 'disk_usage': 17.3}
+2026-07-06 12:51:21,019 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:51:21,019 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:51:32,021 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:51:32,021 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 3.7, 'memory_usage': 58.7, 'disk_usage': 17.3}
+2026-07-06 12:51:33,491 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:51:33,491 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:51:44,493 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:51:44,493 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 3.1, 'memory_usage': 58.7, 'disk_usage': 17.3}
+2026-07-06 12:51:44,878 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:51:44,879 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:51:55,880 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:51:55,880 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 5.6, 'memory_usage': 58.6, 'disk_usage': 17.3}
+2026-07-06 12:51:56,345 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:51:56,345 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:52:07,347 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:52:07,347 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 5.0, 'memory_usage': 58.5, 'disk_usage': 17.3}
+2026-07-06 12:52:08,761 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:52:08,762 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:52:19,762 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:52:19,763 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 10.5, 'memory_usage': 59.4, 'disk_usage': 17.3}
+2026-07-06 12:52:20,206 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:52:20,206 | INFO | [zoey] Upload Status: SUCCESS
+2026-07-06 12:52:31,207 | INFO | [zoey] Uploading metric using server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:52:31,207 | INFO | [MetricsUploader] inserting payload: {'server_id': 'e4ba4f1c-2d4b-43da-9318-be017c5db97a', 'cpu_usage': 7.9, 'memory_usage': 59.5, 'disk_usage': 17.3}
+2026-07-06 12:52:31,989 | INFO | [MetricsUploader] upload successful for server_id=e4ba4f1c-2d4b-43da-9318-be017c5db97a
+2026-07-06 12:52:31,989 | INFO | [zoey] Upload Status: SUCCESS
