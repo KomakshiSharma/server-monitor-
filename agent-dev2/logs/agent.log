@@ -855,3 +855,111 @@
 2026-07-06 12:52:31,208 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 7.9, 'memory_usage': 59.5, 'disk_usage': 17.3}
 2026-07-06 12:52:31,976 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
 2026-07-06 12:52:31,976 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 14:28:08,492 | INFO | Connected to Supabase.
+2026-07-06 14:28:08,493 | INFO | ==============================================
+2026-07-06 14:28:08,493 | INFO | Starting monitoring agent
+2026-07-06 14:28:08,493 | INFO | SERVER_NAME         = dev-note-2
+2026-07-06 14:28:08,493 | INFO | ENVIRONMENT         = development
+2026-07-06 14:28:08,493 | INFO | COLLECTION_INTERVAL = 10
+2026-07-06 14:28:08,493 | INFO | ==============================================
+2026-07-06 14:28:09,934 | INFO | [dev-note-2] ACTIVE SERVER ID = 2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 14:28:10,936 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 14:28:10,936 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 2.8, 'memory_usage': 60.0, 'disk_usage': 17.3}
+2026-07-06 14:28:11,264 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 14:28:11,264 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 14:28:11,264 | ERROR | [dev-note-2] Unexpected Error: name 'AlertService' is not defined
+Traceback (most recent call last):
+  File "/home/komakshi/Desktop/server-moniter/agent-dev2/src/main.py", line 48, in main
+    AlertService.check_and_create_alerts(server_id, metric)
+    ^^^^^^^^^^^^
+NameError: name 'AlertService' is not defined
+2026-07-06 14:28:22,271 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 14:28:22,271 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 3.1, 'memory_usage': 60.1, 'disk_usage': 17.3}
+2026-07-06 14:28:22,731 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 14:28:22,731 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 14:28:22,732 | ERROR | [dev-note-2] Unexpected Error: name 'AlertService' is not defined
+Traceback (most recent call last):
+  File "/home/komakshi/Desktop/server-moniter/agent-dev2/src/main.py", line 48, in main
+    AlertService.check_and_create_alerts(server_id, metric)
+    ^^^^^^^^^^^^
+NameError: name 'AlertService' is not defined
+2026-07-06 14:30:04,821 | INFO | Connected to Supabase.
+2026-07-06 14:30:04,822 | INFO | ==============================================
+2026-07-06 14:30:04,822 | INFO | Starting monitoring agent
+2026-07-06 14:30:04,822 | INFO | SERVER_NAME         = dev-note-2
+2026-07-06 14:30:04,822 | INFO | ENVIRONMENT         = development
+2026-07-06 14:30:04,822 | INFO | COLLECTION_INTERVAL = 10
+2026-07-06 14:30:04,822 | INFO | ==============================================
+2026-07-06 14:30:07,286 | INFO | [dev-note-2] ACTIVE SERVER ID = 2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 14:30:08,288 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 14:30:08,288 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 3.5, 'memory_usage': 61.5, 'disk_usage': 17.3}
+2026-07-06 14:30:08,718 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 14:30:08,718 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:06:51,973 | INFO | Connected to Supabase.
+2026-07-06 15:06:51,973 | INFO | ==============================================
+2026-07-06 15:06:51,973 | INFO | Starting monitoring agent
+2026-07-06 15:06:51,973 | INFO | SERVER_NAME         = dev-note-2
+2026-07-06 15:06:51,973 | INFO | ENVIRONMENT         = development
+2026-07-06 15:06:51,973 | INFO | COLLECTION_INTERVAL = 10
+2026-07-06 15:06:51,973 | INFO | ==============================================
+2026-07-06 15:06:52,494 | INFO | [dev-note-2] ACTIVE SERVER ID = 2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:06:53,495 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:06:53,495 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 3.9, 'memory_usage': 60.1, 'disk_usage': 17.3}
+2026-07-06 15:06:53,927 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:06:53,928 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:07:04,930 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:07:04,930 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 1.8, 'memory_usage': 60.2, 'disk_usage': 17.3}
+2026-07-06 15:07:05,340 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:07:05,340 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:07:16,342 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:07:16,342 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 14.1, 'memory_usage': 60.9, 'disk_usage': 17.3}
+2026-07-06 15:07:17,991 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:07:17,991 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:07:28,993 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:07:28,993 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 5.9, 'memory_usage': 60.8, 'disk_usage': 17.3}
+2026-07-06 15:07:29,449 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:07:29,450 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:07:40,452 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:07:40,452 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 1.5, 'memory_usage': 60.4, 'disk_usage': 17.3}
+2026-07-06 15:07:41,058 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:07:41,058 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:07:52,060 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:07:52,060 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 12.2, 'memory_usage': 61.0, 'disk_usage': 17.3}
+2026-07-06 15:07:52,453 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:07:52,453 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:08:03,455 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:08:03,455 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 12.4, 'memory_usage': 60.7, 'disk_usage': 17.3}
+2026-07-06 15:08:03,839 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:08:03,839 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:08:14,842 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:08:14,842 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 8.2, 'memory_usage': 60.7, 'disk_usage': 17.3}
+2026-07-06 15:08:15,239 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:08:15,240 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:08:26,242 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:08:26,242 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 8.1, 'memory_usage': 60.8, 'disk_usage': 17.3}
+2026-07-06 15:08:26,689 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:08:26,690 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:08:37,692 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:08:37,693 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 1.7, 'memory_usage': 60.6, 'disk_usage': 17.3}
+2026-07-06 15:08:38,121 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:08:38,122 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:08:49,124 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:08:49,124 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 3.7, 'memory_usage': 60.4, 'disk_usage': 17.3}
+2026-07-06 15:08:49,527 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:08:49,527 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:09:00,528 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:09:00,528 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 3.8, 'memory_usage': 60.2, 'disk_usage': 17.3}
+2026-07-06 15:09:00,968 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:09:00,968 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:09:11,970 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:09:11,970 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 5.6, 'memory_usage': 60.6, 'disk_usage': 17.3}
+2026-07-06 15:09:12,372 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:09:12,372 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:09:23,373 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:09:23,373 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 8.4, 'memory_usage': 60.7, 'disk_usage': 17.3}
+2026-07-06 15:09:23,842 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:09:23,842 | INFO | [dev-note-2] Upload Status: SUCCESS
+2026-07-06 15:09:34,843 | INFO | [dev-note-2] Uploading metric using server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:09:34,844 | INFO | [MetricsUploader] inserting payload: {'server_id': '2905c930-acaa-40ad-bd3f-f50e2bd5f29b', 'cpu_usage': 5.5, 'memory_usage': 60.8, 'disk_usage': 17.3}
+2026-07-06 15:09:35,306 | INFO | [MetricsUploader] upload successful for server_id=2905c930-acaa-40ad-bd3f-f50e2bd5f29b
+2026-07-06 15:09:35,306 | INFO | [dev-note-2] Upload Status: SUCCESS

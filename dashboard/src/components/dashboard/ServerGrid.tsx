@@ -13,6 +13,7 @@ import {
 import SummaryCards from "./SummaryCards";
 import ServerCard from "./ServerCard";
 import ServerTrends from "./ServerTrends";
+import AlertsPanel from "./AlertsPanel";
 
 export default function ServerGrid() {
   const [servers, setServers] = useState<ServerWithLatestMetric[]>([]);
@@ -22,6 +23,7 @@ export default function ServerGrid() {
     setLoading(true);
 
     const data = await getServersWithLatestMetrics();
+    console.log("Fetched servers with latest metrics:", data);
 
     setServers(data);
     setLoading(false);
@@ -105,9 +107,9 @@ export default function ServerGrid() {
         )}
       </div>
 
-      <ServerTrends
-        servers={servers.map((item) => item.server)}
-      />
+      <ServerTrends servers={servers.map((item) => item.server)} />
+
+      <AlertsPanel />
     </div>
   );
 }

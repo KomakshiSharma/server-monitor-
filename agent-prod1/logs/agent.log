@@ -829,3 +829,92 @@
 2026-07-06 12:52:31,207 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 7.9, 'memory_usage': 59.5, 'disk_usage': 17.3}
 2026-07-06 12:52:32,110 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
 2026-07-06 12:52:32,110 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 14:27:25,942 | INFO | Connected to Supabase.
+2026-07-06 14:27:25,943 | INFO | ==============================================
+2026-07-06 14:27:25,943 | INFO | Starting monitoring agent
+2026-07-06 14:27:25,943 | INFO | SERVER_NAME         = prod-api-1
+2026-07-06 14:27:25,943 | INFO | ENVIRONMENT         = development
+2026-07-06 14:27:25,943 | INFO | COLLECTION_INTERVAL = 10
+2026-07-06 14:27:25,943 | INFO | ==============================================
+2026-07-06 14:27:34,693 | INFO | Connected to Supabase.
+2026-07-06 14:27:34,693 | INFO | ==============================================
+2026-07-06 14:27:34,694 | INFO | Starting monitoring agent
+2026-07-06 14:27:34,694 | INFO | SERVER_NAME         = prod-api-1
+2026-07-06 14:27:34,694 | INFO | ENVIRONMENT         = development
+2026-07-06 14:27:34,694 | INFO | COLLECTION_INTERVAL = 10
+2026-07-06 14:27:34,694 | INFO | ==============================================
+2026-07-06 14:27:35,363 | INFO | [prod-api-1] ACTIVE SERVER ID = 3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 14:27:36,364 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 14:27:36,364 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 3.0, 'memory_usage': 60.3, 'disk_usage': 17.3}
+2026-07-06 14:27:37,368 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 14:27:37,368 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 14:27:37,368 | ERROR | [prod-api-1] Unexpected Error: name 'AlertService' is not defined
+Traceback (most recent call last):
+  File "/home/komakshi/Desktop/server-moniter/agent-prod1/src/main.py", line 48, in main
+    AlertService.check_and_create_alerts(server_id, metric)
+    ^^^^^^^^^^^^
+NameError: name 'AlertService' is not defined
+2026-07-06 15:07:05,265 | INFO | Connected to Supabase.
+2026-07-06 15:07:05,266 | INFO | ==============================================
+2026-07-06 15:07:05,266 | INFO | Starting monitoring agent
+2026-07-06 15:07:05,266 | INFO | SERVER_NAME         = prod-api-1
+2026-07-06 15:07:05,266 | INFO | ENVIRONMENT         = development
+2026-07-06 15:07:05,266 | INFO | COLLECTION_INTERVAL = 10
+2026-07-06 15:07:05,266 | INFO | ==============================================
+2026-07-06 15:07:05,678 | INFO | [prod-api-1] ACTIVE SERVER ID = 3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:07:06,679 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:07:06,680 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 4.5, 'memory_usage': 60.3, 'disk_usage': 17.3}
+2026-07-06 15:07:07,034 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:07:07,034 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:07:18,036 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:07:18,036 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 9.3, 'memory_usage': 60.9, 'disk_usage': 17.3}
+2026-07-06 15:07:18,441 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:07:18,441 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:07:29,442 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:07:29,443 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 6.4, 'memory_usage': 60.9, 'disk_usage': 17.3}
+2026-07-06 15:07:29,869 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:07:29,869 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:07:40,871 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:07:40,872 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 1.8, 'memory_usage': 60.3, 'disk_usage': 17.3}
+2026-07-06 15:07:41,339 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:07:41,339 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:07:52,341 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:07:52,342 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 14.0, 'memory_usage': 61.0, 'disk_usage': 17.3}
+2026-07-06 15:07:52,807 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:07:52,807 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:08:03,808 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:08:03,809 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 10.2, 'memory_usage': 60.7, 'disk_usage': 17.3}
+2026-07-06 15:08:04,277 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:08:04,277 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:08:15,287 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:08:15,287 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 12.8, 'memory_usage': 60.9, 'disk_usage': 17.3}
+2026-07-06 15:08:15,679 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:08:15,679 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:08:26,680 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:08:26,681 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 8.6, 'memory_usage': 60.7, 'disk_usage': 17.3}
+2026-07-06 15:08:27,113 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:08:27,113 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:08:38,115 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:08:38,115 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 1.9, 'memory_usage': 60.5, 'disk_usage': 17.3}
+2026-07-06 15:08:38,513 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:08:38,513 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:08:49,514 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:08:49,515 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 5.1, 'memory_usage': 60.4, 'disk_usage': 17.3}
+2026-07-06 15:08:49,949 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:08:49,949 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:09:00,959 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:09:00,961 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 3.6, 'memory_usage': 60.2, 'disk_usage': 17.3}
+2026-07-06 15:09:01,430 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:09:01,430 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:09:12,432 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:09:12,432 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 6.9, 'memory_usage': 60.5, 'disk_usage': 17.3}
+2026-07-06 15:09:12,884 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:09:12,885 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:09:23,886 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:09:23,886 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 8.2, 'memory_usage': 60.8, 'disk_usage': 17.3}
+2026-07-06 15:09:24,296 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:09:24,296 | INFO | [prod-api-1] Upload Status: SUCCESS
+2026-07-06 15:09:35,297 | INFO | [prod-api-1] Uploading metric using server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:09:35,298 | INFO | [MetricsUploader] inserting payload: {'server_id': '3fe93c60-98e7-49dc-8b97-954f8e2bfdc7', 'cpu_usage': 6.9, 'memory_usage': 60.9, 'disk_usage': 17.3}
+2026-07-06 15:09:35,720 | INFO | [MetricsUploader] upload successful for server_id=3fe93c60-98e7-49dc-8b97-954f8e2bfdc7
+2026-07-06 15:09:35,720 | INFO | [prod-api-1] Upload Status: SUCCESS

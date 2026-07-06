@@ -8,6 +8,7 @@ from src.config.settings import (
 from src.services.collector_service import CollectorService
 from src.services.metrics_uploader import MetricsUploader
 from src.services.server_service import register_server
+from src.services.alert_service import AlertService
 from src.utils.logger import logger
 
 
@@ -45,6 +46,7 @@ def main():
 
             if success:
                 logger.info(f"[{SERVER_NAME}] Upload Status: SUCCESS")
+                AlertService.check_and_create_alerts(server_id, metric)
             else:
                 logger.warning(f"[{SERVER_NAME}] Upload Status: FAILED")
 
