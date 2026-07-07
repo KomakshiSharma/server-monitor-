@@ -1,44 +1,77 @@
 import { supabase } from "@/lib/supabase";
-import { Alert, AlertWithServer } from "@/types/alert";
+import { AlertWithServer } from "@/types/alert";
+
+interface AlertRow {
+  id: number;
+  server_id: string;
+  metric_type: "cpu" | "memory" | "disk";
+  metric_value: number;
+  message: string;
+  severity: "warning" | "critical";
+  status: "active" | "resolved";
+  created_at: string;
+  resolved_at?: string | null;
+}
+
+interface ServerRow {
+  id: string;
+  hostname: string;
+  environment: string;
+}
 
 /**
- * Fetch active alerts with server details.
+ * Fetch active alerts and manually attach server info.
+ * This avoids Supabase relation/join issues on alerts -> servers.
  */
 export async function getActiveAlerts(): Promise<AlertWithServer[]> {
-  const { data, error } = await supabase
+  const { data: alertRows, error: alertError } = await supabase
     .from("alerts")
-    .select(`
-      id,
-      server_id,
-      metric_type,
-      metric_value,
-      message,
-      severity,
-      status,
-      created_at,
-      servers (
-        hostname,
-        environment
-      )
-    `)
+    .select("*")
     .eq("status", "active")
     .order("created_at", { ascending: false });
 
-  if (error) {
-    console.error("Error fetching alerts:", error);
+  if (alertError) {
+    console.error("Error fetching alerts table:", {
+     message: alertError?.message,
+     details: alertError?.details,
+     hint: alertError?.hint,
+     code: alertError?.code,
+     name: alertError?.name,
+     full: alertError,
+  });
+  }
+
+  const { data: serverRows, error: serverError } = await supabase
+    .from("servers")
+    .select("id, hostname, environment");
+
+  if (serverError) {
+    console.error("Error fetching servers for alerts:", serverError);
     return [];
   }
 
-  return (data ?? []).map((row: any) => ({
-    id: row.id,
-    server_id: row.server_id,
-    metric_type: row.metric_type,
-    metric_value: row.metric_value,
-    message: row.message,
-    severity: row.severity,
-    status: row.status,
-    created_at: row.created_at,
-    server_name: row.servers?.hostname ?? "Unknown Server",
-    environment: row.servers?.environment ?? "unknown",
-  }));
+  const alerts = (alertRows ?? []) as AlertRow[];
+  const servers = (serverRows ?? []) as ServerRow[];
+
+  const serverMap = new Map(
+    servers.map((server) => [server.id, server])
+  );
+
+  return alerts.map((alert) => {
+    const server = serverMap.get(alert.server_id);
+
+    return {
+      id: alert.id,
+      server_id: alert.server_id,
+      metric_type: alert.metric_type,
+      metric_value: alert.metric_value,
+      message: alert.message,
+      severity: alert.severity,
+      status: alert.status,
+      created_at: alert.created_at,
+      resolved_at: alert.resolved_at ?? null,
+      server_name: server?.hostname ?? "Unknown Server",
+      environment: server?.environment ?? "unknown",
+    };
+  });
 }

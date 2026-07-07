@@ -1,30 +1,21 @@
-import "./globals.css"
+import "./globals.css";
+import { AuthProvider } from "@/contexts/AuthContext";
 
-import type { Metadata } from "next"
-
-export const metadata: Metadata = {
-    title: "Server Monitoring Dashboard",
-    description: "Real-time server monitoring dashboard",
-}
+export const metadata = {
+  title: "Server Monitor Dashboard",
+  description: "Realtime server monitoring dashboard",
+};
 
 export default function RootLayout({
-    children,
-}:{
-    children: React.ReactNode
-}){
-
-    return(
-
-        <html lang="en">
-
-            <body>
-
-                {children}
-
-            </body>
-
-        </html>
-
-    )
-
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>
+        <AuthProvider>{children}</AuthProvider>
+      </body>
+    </html>
+  );
 }
